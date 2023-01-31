@@ -1,0 +1,17 @@
+{
+  "name": "crypt-of-the-converter",
+  "version": "1.0.0",
+  "description": "Converts midi file to instructions for https://sprig.hackclub.com",
+  "main": "index.js",
+  "bin": {
+    "crypt-of-the-converter": "./bin/index.js"
+  },
+  "scripts": {
+    "bin": "node bin/index.js"
+  },
+  "author": "TheLastGimbus",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28"
+  }
+}
